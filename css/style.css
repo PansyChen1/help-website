@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  padding: 15px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.book-list h2{
+  margin-bottom: 30px;
+}
+.row .col-md-6{
+  color: #000;
+  font-family: "Letter Gothic Std";
+}
+.row p {
+  font-size: 12px;
+}
+.col-md-6.col-xs-12{
+  padding: 10px 10px;
+}
+.col-md-6 .featured-item{
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  float: left;
+  background: #ddd;
+  padding: 10px;
+}
