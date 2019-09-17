@@ -1,10 +1,11 @@
-* {
+*{
   box-sizing: border-box;
+  font-family: "Letter Gothic Std";
 }
-.container {
+.header{
   padding: 15px;
 }
-.title {
+.title{
   margin-bottom: 50px;
 }
 .book-list h2{
@@ -12,9 +13,8 @@
 }
 .row .col-md-6{
   color: #000;
-  font-family: "Letter Gothic Std";
 }
-.row p {
+.row p{
   font-size: 12px;
 }
 .col-md-6.col-xs-12{
@@ -27,4 +27,30 @@
   float: left;
   background: #ddd;
   padding: 10px;
+}
+.featured-item a{
+  text-decoration: none;
+  color: #245870;
+  font-weight: bold;
+}
+.footer{
+  margin-top: 50px;
+  paddding: 15px;
+}
+.footer .row img{
+  float: left;
+  margin-right: 30px;
+}
+.footer-item{
+  width: 30%;
+}
+.footer-item span{
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-item a{
+  display: block;
+  color: #333;
+  text-decoration: none;
 }
